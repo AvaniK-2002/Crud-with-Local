@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Manager</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>User Information</h1>
+
+    <div class="content">
+      <div class="box" id="user-list">
+        <h2>Users</h2>
+        <table id="users">
+          <thead>
+            <tr>
+              <th>UserName</th>
+              <th>Email</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Product items will be added dynamically using JavaScript -->
+          </tbody>
+        </table>
+      </div>
+
+      <div class="box" id="product-form">
+        <h2>Add Information</h2>
+        <form id="add-product-form">
+          <input type="text" id="name" placeholder="Product Name" required>
+          <input type="email" id="email" placeholder="Email" required>
+          <button type="submit">Add</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
